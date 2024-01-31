@@ -12,7 +12,7 @@
 	<artifactId>nurse-ease</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>nurse-ease</name>
-	<description>A hopstial management system in springboot </description>
+	<description>A hospital management system in springboot </description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -27,9 +27,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>
-			<scope>runtime</scope>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

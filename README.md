@@ -1,2 +1,2 @@
-# nurse-ease
- Hosptial Management Backend System in Springboot
+# nurse-ease 
+ Hospital Management Backend System in Springboot
