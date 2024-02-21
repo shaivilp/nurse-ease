@@ -1,4 +1,4 @@
-package me.shaivil.nurseease;
+package me.shaivil.nursease;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

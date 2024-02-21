@@ -1,4 +1,4 @@
-package me.shaivil.nurseease.utils;
+package me.shaivil.nursease.utils;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
