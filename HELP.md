@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'me.shaivil.nurse-ease' is invalid and this project uses 'me.shaivil.nurseease' instead.
+* The original package name 'me.shaivil.nurse-ease' is invalid and this project uses 'me.shaivil.nursease' instead.
 
 # Getting Started
 
