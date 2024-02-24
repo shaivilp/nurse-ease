@@ -1,8 +1,7 @@
-package me.shaivil.nursease.models;
+package me.shaivil.nursease.models.entities;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+import me.shaivil.nursease.models.entities.Doctor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -13,7 +12,9 @@ import java.util.List;
 import java.util.UUID;
 
 @Document(collation = "patients")
-@Getter @Setter
+@Data
+@Builder
+@AllArgsConstructor
 @NoArgsConstructor
 public class Patient {
     @Id private String uuid = UUID.randomUUID().toString();
@@ -25,19 +26,4 @@ public class Patient {
     @Field private String diagnosis = "Unknown";
     @Field @DBRef
     List<Doctor> assignedDoctors;
-
-    public Patient(String name, Date dob, int age, int weight){
-        this.name = name;
-        this.dob = dob;
-        this.age = age;
-        this.weight = weight;
-    }
-
-    public Patient(String name, Date dob, int age, int weight, String condition){
-        this.name = name;
-        this.dob = dob;
-        this.age = age;
-        this.weight = weight;
-        this.condition = condition;
-    }
 }
