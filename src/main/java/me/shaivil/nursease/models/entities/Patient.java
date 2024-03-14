@@ -1,4 +1,4 @@
-package me.shaivil.nursease.models;
+package me.shaivil.nursease.models.entities;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

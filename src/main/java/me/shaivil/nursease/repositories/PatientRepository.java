@@ -1,7 +1,7 @@
 package me.shaivil.nursease.repositories;
 
-import me.shaivil.nursease.models.Doctor;
-import me.shaivil.nursease.models.Patient;
+import me.shaivil.nursease.models.entities.Doctor;
+import me.shaivil.nursease.models.entities.Patient;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.Date;

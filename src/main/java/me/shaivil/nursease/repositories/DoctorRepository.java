@@ -1,6 +1,6 @@
 package me.shaivil.nursease.repositories;
 
-import me.shaivil.nursease.models.Doctor;
+import me.shaivil.nursease.models.entities.Doctor;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface DoctorRepository extends MongoRepository<Doctor, String> {
