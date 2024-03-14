@@ -1,7 +1,6 @@
 package me.shaivil.nursease.models.entities;
 
 import lombok.*;
-import me.shaivil.nursease.models.entities.Doctor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
